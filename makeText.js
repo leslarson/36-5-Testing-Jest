@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const axios = require('axios');
+const process = require('process');
 const {MarkovMachine} = require('./markov');
 
 // Create a function that takes text from either the web or a file
